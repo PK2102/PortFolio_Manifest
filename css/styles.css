@@ -1,0 +1,78 @@
+.Center
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+.subdiv{
+  display: flex;
+}
+
+.p1
+{
+  height: 200px;
+  width:60%;
+
+}
+.p2
+{
+  height: 250px;
+  width:30%;
+  padding-left: 100px;
+}
+.para
+{
+  font-size: 27px;
+}
+.logo{
+  height: 100px;
+  width: 100px;
+
+}
+.head{
+
+
+  display: flex;
+  justify-content: space-between;
+
+}
+.sub_subdiv
+{
+  height: 100%;
+  width:100%;
+
+}
+.sub_subdiv1
+{
+  height: 100%;
+  width:100%;
+
+}
+@media  screen and (min-width:320px) and (max-width:500px){
+  .subdiv
+  {
+    display:block;
+
+  }
+  .p2
+  {
+    width:80vw;
+  }
+}
+@media  screen and (min-width:501px) and (max-width:780px){
+  .subdiv
+  {
+    display: block;
+
+  }
+  .p1
+  {
+     display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+}
